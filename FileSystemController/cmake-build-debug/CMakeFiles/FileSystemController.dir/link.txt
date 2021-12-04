@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/FileSystemController.dir/main.cpp.o CMakeFiles/FileSystemController.dir/FileSystem/SimpleLogger.cpp.o CMakeFiles/FileSystemController.dir/FileSystem/FileSystemController.cpp.o  -o FileSystemController 

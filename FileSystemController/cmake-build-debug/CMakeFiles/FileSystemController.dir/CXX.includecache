@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Profilometr/FileSystemController/FileSystem/FileSystemController.cpp
+FileSystemController.hpp
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Profilometr/FileSystemController/FileSystem/FileSystemController.hpp
+
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Profilometr/FileSystemController/FileSystem/FileSystemController.hpp
+iostream
+-
+fstream
+-
+cstring
+-
+ctime
+-
+filesystem
+-
+vector
+-
+SimpleLogger.hpp
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Profilometr/FileSystemController/FileSystem/SimpleLogger.hpp
+
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Profilometr/FileSystemController/FileSystem/SimpleLogger.hpp
+string
+-
+
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Profilometr/FileSystemController/main.cpp
+FileSystem/FileSystemController.hpp
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Profilometr/FileSystemController/FileSystem/FileSystemController.hpp
+iostream
+-
+string
+-
+vector
+-
+sstream
+-
+

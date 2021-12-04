@@ -1,0 +1,8 @@
+
+
+///// WARNING THIS IS READONLY MEASURE DATA /////
+
+
+|             id|     Healthy|Unrecognized|   Unhealthy|
+|       04122021|           0|           5|           0|
+|       03122021|           2|           1|           3|

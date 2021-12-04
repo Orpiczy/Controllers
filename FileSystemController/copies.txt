@@ -1,0 +1,118 @@
+//
+// Created by lukas on 12/3/2021.
+//
+
+#ifndef FILESYSTEM_FILESYSTEM_CONTROLLER_HPP
+#define FILESYSTEM_FILESYSTEM_CONTROLLER_HPP
+
+#include <iostream>
+#include <fstream>
+#include <cstring>
+#include <ctime>
+#include <filesystem>
+#include <vector>
+#include "SimpleLogger.hpp"
+
+enum ScanResult {
+    Healthy = 1, Unrecognized = 0, Unhealthy = -1
+};
+
+std::string getResultName(ScanResult result);
+ 
+class FileSystemController : private SimpleLogger {
+private:
+    const std::string delimiter = "#";
+    std::string historyHeadline;
+    std::string scanDataHeadline;
+    const std::string savePath = "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Profilometr/FileSystemController/Database/";
+    const std::string warningScanData = "\n\n///// WARNING THIS IS READONLY MEASURE DATA /////\n\n";
+    const int padding = 12;
+    const int initialPadding = 15;
+
+    ///// TEST DATA, CAN BE DELETED IN PRODUCTION CODE
+    const static std::vector<std::pair<uint32_t, uint32_t>> testProfileData;
+    const static uint16_t testOut1 = 4123;
+    const static uint16_t testOut2 = 235;
+    const static uint16_t testOut3 = -2314;
+    const static uint16_t testOutA = -13;
+    const static ScanResult testResult = ScanResult::Healthy;
+
+protected:
+    FileSystemController(bool isLogInfoEnable = false, bool isLogErrorEnable = true) : SimpleLogger(isLogInfoEnable,
+                                                                                                    isLogErrorEnable) {
+        std::stringstream historyHeadlineSS;
+        historyHeadlineSS << std::setw(initialPadding) << " " << delimiter;
+        historyHeadlineSS << std::setw(padding) << "Healthy" << delimiter;
+        historyHeadlineSS << std::setw(padding) << "Unrecognized" << delimiter;
+        historyHeadlineSS << std::setw(padding) << "Unhealthy";
+        historyHeadline = historyHeadlineSS.str();
+
+        std::stringstream scanDataHeadlineSS;
+        scanDataHeadlineSS << std::setw(initialPadding) << " " << delimiter;
+        scanDataHeadlineSS << std::setw(padding) << "Result" << delimiter;
+        scanDataHeadlineSS << std::setw(padding) << "Out1" << delimiter;
+        scanDataHeadlineSS << std::setw(padding) << "Out2" << delimiter;
+        scanDataHeadlineSS << std::setw(padding) << "Out3" << delimiter;
+        scanDataHeadlineSS << std::setw(padding) << "OutA" << delimiter;
+        scanDataHeadlineSS << std::setw(padding) << "XCoord" << delimiter;
+        scanDataHeadlineSS << std::setw(padding) << "YCoord" << delimiter;
+        scanDataHeadline = scanDataHeadlineSS.str();
+
+    };
+    static FileSystemController* fsc_;
+public:
+    FileSystemController(FileSystemController& other) = delete;
+
+    void operator=(const FileSystemController&) = delete;
+
+    static FileSystemController* GetInstance(bool isLogInfoEnable = true, bool isLogErrorEnable = true);
+
+    std::string getTimeStamp();
+
+    void addToTimeStamp(std::string& timeStamp, int value);
+
+    int addScanToMainDataBase(ScanResult result = testResult, uint16_t out1 = testOut1, uint16_t out2 = testOut2,
+                              uint16_t out3 = testOut3, uint16_t outA = testOutA,
+                              std::vector<std::pair<uint32_t, uint32_t>> profileData = testProfileData) {
+        auto id = getTimeStamp();
+        std::string resultPath = "/" +  getResultName(result) + "/";
+        auto fullPath = savePath + resultPath + id + ".txt";
+
+        if (std::filesystem::exists(fullPath)) {
+            LG_ERR("FAILURE - FILE EXISTS - cmd addScanToMainDataBase");
+            return -1;
+        }
+        std::ofstream file;
+        file.open(fullPath);
+
+        if (file.is_open()) {
+            LG_INF("SUCCESS - FILE WAS OPENED CORRECTLY - cmd addScanToMainDataBase");
+        } else {
+            LG_ERR("FAILURE - " + std::string(strerror(errno)) + " - " + fullPath + " - " + "cmd addScanToMainDataBase");
+        }
+        file << warningScanData;
+        file << scanDataHeadline << std::endl;
+        file << std::setw(initialPadding) << id << delimiter;
+        file << std::setw(padding) << std::to_string(result) << delimiter;
+        file << std::setw(padding) << std::to_string(out1) << delimiter;
+        file << std::setw(padding) << std::to_string(out2) << delimiter;
+        file << std::setw(padding) << std::to_string(out3) << delimiter;
+        file << std::setw(padding) << std::to_string(outA) << delimiter;
+
+        for (auto pairXY : profileData) {
+            file << std::setw(padding) << std::to_string(pairXY.first) << delimiter;
+            file << std::setw(padding) << std::to_string(pairXY.second) << delimiter;
+        }
+        file.close();
+        return 0;
+    }
+
+    void addScanToHistoryDataBase(std::string stamp, ScanResult result) {
+
+    }
+
+
+};
+
+
+#endif //FILESYSTEM_FILESYSTEM_CONTROLLER_HPP
