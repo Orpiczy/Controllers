@@ -97,10 +97,13 @@
 		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/ControllersFlags.hpp">
 			<Option target="Controllers"/>
 		</Unit>
-		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.cpp">
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp">
 			<Option target="Controllers"/>
 		</Unit>
-		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp">
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp">
 			<Option target="Controllers"/>
 		</Unit>
 		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.cpp">

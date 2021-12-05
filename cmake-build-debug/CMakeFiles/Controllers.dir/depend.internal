@@ -4,15 +4,17 @@
 CMakeFiles/Controllers.dir/BaseClasses/SimpleLogger.cpp.o
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.cpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.hpp
-CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o
- /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.cpp
+CMakeFiles/Controllers.dir/Common/Translators.cpp.o
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
+ /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.cpp
+ /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
 CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/DeviceManager.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/ScannedData.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/ControllersFlags.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
+ /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.cpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.hpp
@@ -22,6 +24,7 @@ CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/ControllersFlags.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
+ /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.cpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.hpp
@@ -42,6 +45,7 @@ CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/ProfilometerMana
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/ControllersFlags.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
+ /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/CommandProvider.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ErrorProvider.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/MsgManager.hpp
@@ -57,6 +61,7 @@ CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/SerialPortManage
 CMakeFiles/Controllers.dir/FileSystemController/FileSystem/FileSystemController.cpp.o
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
+ /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.cpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.hpp
 CMakeFiles/Controllers.dir/main.cpp.o
@@ -65,6 +70,7 @@ CMakeFiles/Controllers.dir/main.cpp.o
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/ControllersFlags.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
+ /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/CommandProvider.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ErrorProvider.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/MsgManager.hpp

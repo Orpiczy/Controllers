@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.cpp" "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/CMakeFiles/Controllers.dir/BaseClasses/SimpleLogger.cpp.o"
-  "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.cpp" "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o"
+  "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.cpp" "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/CMakeFiles/Controllers.dir/Common/Translators.cpp.o"
   "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.cpp" "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o"
   "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.cpp" "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o"
   "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/MsgManager.cpp" "/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/MsgManager.cpp.o"

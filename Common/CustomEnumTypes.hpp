@@ -6,17 +6,8 @@
 #ifndef CONTROLLERS_CUSTOMENUMTYPES_HPP
 #define CONTROLLERS_CUSTOMENUMTYPES_HPP
 
-#include <string>
-
-namespace  ScanResult{
-    enum Type{
-        Healthy, Unrecognized, Unhealthy
-    };
-
-    //std::string getResultName(int result);
-    std::string getResultName(ScanResult::Type result);
+enum ScanResult{
+    Healthy = 1 , Unrecognized = 0, Unhealthy =  - 1
 };
-
-
 
 #endif //CONTROLLERS_CUSTOMENUMTYPES_HPP

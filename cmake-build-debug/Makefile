@@ -150,32 +150,32 @@ BaseClasses/SimpleLogger.cpp.s:
 	$(MAKE) -f CMakeFiles/Controllers.dir/build.make CMakeFiles/Controllers.dir/BaseClasses/SimpleLogger.cpp.s
 .PHONY : BaseClasses/SimpleLogger.cpp.s
 
-Common/CustomEnumTypes.o: Common/CustomEnumTypes.cpp.o
+Common/Translators.o: Common/Translators.cpp.o
 
-.PHONY : Common/CustomEnumTypes.o
+.PHONY : Common/Translators.o
 
 # target to build an object file
-Common/CustomEnumTypes.cpp.o:
-	$(MAKE) -f CMakeFiles/Controllers.dir/build.make CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o
-.PHONY : Common/CustomEnumTypes.cpp.o
+Common/Translators.cpp.o:
+	$(MAKE) -f CMakeFiles/Controllers.dir/build.make CMakeFiles/Controllers.dir/Common/Translators.cpp.o
+.PHONY : Common/Translators.cpp.o
 
-Common/CustomEnumTypes.i: Common/CustomEnumTypes.cpp.i
+Common/Translators.i: Common/Translators.cpp.i
 
-.PHONY : Common/CustomEnumTypes.i
+.PHONY : Common/Translators.i
 
 # target to preprocess a source file
-Common/CustomEnumTypes.cpp.i:
-	$(MAKE) -f CMakeFiles/Controllers.dir/build.make CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.i
-.PHONY : Common/CustomEnumTypes.cpp.i
+Common/Translators.cpp.i:
+	$(MAKE) -f CMakeFiles/Controllers.dir/build.make CMakeFiles/Controllers.dir/Common/Translators.cpp.i
+.PHONY : Common/Translators.cpp.i
 
-Common/CustomEnumTypes.s: Common/CustomEnumTypes.cpp.s
+Common/Translators.s: Common/Translators.cpp.s
 
-.PHONY : Common/CustomEnumTypes.s
+.PHONY : Common/Translators.s
 
 # target to generate assembly for a file
-Common/CustomEnumTypes.cpp.s:
-	$(MAKE) -f CMakeFiles/Controllers.dir/build.make CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.s
-.PHONY : Common/CustomEnumTypes.cpp.s
+Common/Translators.cpp.s:
+	$(MAKE) -f CMakeFiles/Controllers.dir/build.make CMakeFiles/Controllers.dir/Common/Translators.cpp.s
+.PHONY : Common/Translators.cpp.s
 
 DeviceController/CameraManager/CameraManager.o: DeviceController/CameraManager/CameraManager.cpp.o
 
@@ -378,9 +378,9 @@ help:
 	@echo "... BaseClasses/SimpleLogger.o"
 	@echo "... BaseClasses/SimpleLogger.i"
 	@echo "... BaseClasses/SimpleLogger.s"
-	@echo "... Common/CustomEnumTypes.o"
-	@echo "... Common/CustomEnumTypes.i"
-	@echo "... Common/CustomEnumTypes.s"
+	@echo "... Common/Translators.o"
+	@echo "... Common/Translators.i"
+	@echo "... Common/Translators.s"
 	@echo "... DeviceController/CameraManager/CameraManager.o"
 	@echo "... DeviceController/CameraManager/CameraManager.i"
 	@echo "... DeviceController/CameraManager/CameraManager.s"

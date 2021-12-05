@@ -4,14 +4,16 @@
 CMakeFiles/Controllers.dir/BaseClasses/SimpleLogger.cpp.o: ../BaseClasses/SimpleLogger.cpp
 CMakeFiles/Controllers.dir/BaseClasses/SimpleLogger.cpp.o: ../BaseClasses/SimpleLogger.hpp
 
-CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o: ../Common/CustomEnumTypes.cpp
-CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o: ../Common/CustomEnumTypes.hpp
+CMakeFiles/Controllers.dir/Common/Translators.cpp.o: ../Common/CustomEnumTypes.hpp
+CMakeFiles/Controllers.dir/Common/Translators.cpp.o: ../Common/Translators.cpp
+CMakeFiles/Controllers.dir/Common/Translators.cpp.o: ../Common/Translators.hpp
 
 CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o: ../BaseClasses/DeviceManager.hpp
 CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o: ../BaseClasses/ScannedData.hpp
 CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o: ../BaseClasses/SimpleLogger.hpp
 CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o: ../Common/ControllersFlags.hpp
 CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o: ../Common/CustomEnumTypes.hpp
+CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o: ../Common/Translators.hpp
 CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o: ../DeviceController/CameraManager/CameraManager.cpp
 CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o: ../DeviceController/CameraManager/CameraManager.hpp
 CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o: ../FileSystemController/FileSystem/FileSystemController.hpp
@@ -21,6 +23,7 @@ CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o: ../BaseClass
 CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o: ../BaseClasses/SimpleLogger.hpp
 CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o: ../Common/ControllersFlags.hpp
 CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o: ../Common/CustomEnumTypes.hpp
+CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o: ../Common/Translators.hpp
 CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o: ../DeviceController/CameraManager/CameraManager.hpp
 CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o: ../DeviceController/DeviceController.cpp
 CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o: ../DeviceController/DeviceController.hpp
@@ -41,6 +44,7 @@ CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/ProfilometerMana
 CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/ProfilometerManager.cpp.o: ../BaseClasses/SimpleLogger.hpp
 CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/ProfilometerManager.cpp.o: ../Common/ControllersFlags.hpp
 CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/ProfilometerManager.cpp.o: ../Common/CustomEnumTypes.hpp
+CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/ProfilometerManager.cpp.o: ../Common/Translators.hpp
 CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/ProfilometerManager.cpp.o: ../DeviceController/ProfilometerManager/CommandProvider.hpp
 CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/ProfilometerManager.cpp.o: ../DeviceController/ProfilometerManager/ErrorProvider.hpp
 CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/ProfilometerManager.cpp.o: ../DeviceController/ProfilometerManager/MsgManager.hpp
@@ -56,6 +60,7 @@ CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/SerialPortManage
 
 CMakeFiles/Controllers.dir/FileSystemController/FileSystem/FileSystemController.cpp.o: ../BaseClasses/SimpleLogger.hpp
 CMakeFiles/Controllers.dir/FileSystemController/FileSystem/FileSystemController.cpp.o: ../Common/CustomEnumTypes.hpp
+CMakeFiles/Controllers.dir/FileSystemController/FileSystem/FileSystemController.cpp.o: ../Common/Translators.hpp
 CMakeFiles/Controllers.dir/FileSystemController/FileSystem/FileSystemController.cpp.o: ../FileSystemController/FileSystem/FileSystemController.cpp
 CMakeFiles/Controllers.dir/FileSystemController/FileSystem/FileSystemController.cpp.o: ../FileSystemController/FileSystem/FileSystemController.hpp
 
@@ -64,6 +69,7 @@ CMakeFiles/Controllers.dir/main.cpp.o: ../BaseClasses/ScannedData.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../BaseClasses/SimpleLogger.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../Common/ControllersFlags.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../Common/CustomEnumTypes.hpp
+CMakeFiles/Controllers.dir/main.cpp.o: ../Common/Translators.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../DeviceController/ProfilometerManager/CommandProvider.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../DeviceController/ProfilometerManager/ErrorProvider.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../DeviceController/ProfilometerManager/MsgManager.hpp

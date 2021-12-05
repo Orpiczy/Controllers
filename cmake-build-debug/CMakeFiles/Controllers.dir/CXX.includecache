@@ -30,13 +30,17 @@ string
 CustomEnumTypes.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
 
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.cpp
-CustomEnumTypes.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
 
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.cpp
+Translators.hpp
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
+
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
 string
 -
+CustomEnumTypes.hpp
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
 
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.cpp
 CameraManager.hpp
@@ -118,12 +122,6 @@ MsgManager.hpp
 ../../FileSystemController/FileSystem/FileSystemController.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.hpp
 
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/SerialPortManager.cpp
-iostream
--
-SerialPortManager.hpp
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/SerialPortManager.hpp
-
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/SerialPortManager.hpp
 memory
 -
@@ -167,6 +165,8 @@ vector
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.hpp
 ../../Common/CustomEnumTypes.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
+../../Common/Translators.hpp
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
 
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/main.cpp
 iostream

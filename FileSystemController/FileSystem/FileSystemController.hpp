@@ -13,6 +13,7 @@
 #include <vector>
 #include "../../BaseClasses/SimpleLogger.hpp"
 #include "../../Common/CustomEnumTypes.hpp"
+#include "../../Common/Translators.hpp"
 
 
 class FileSystemController : private SimpleLogger {

@@ -161,18 +161,18 @@ CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.cpp -o CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.s
 
-CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o: CMakeFiles/Controllers.dir/flags.make
-CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o: ../Common/CustomEnumTypes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o -c /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.cpp
+CMakeFiles/Controllers.dir/Common/Translators.cpp.o: CMakeFiles/Controllers.dir/flags.make
+CMakeFiles/Controllers.dir/Common/Translators.cpp.o: ../Common/Translators.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Controllers.dir/Common/Translators.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controllers.dir/Common/Translators.cpp.o -c /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.cpp
 
-CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.cpp > CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.i
+CMakeFiles/Controllers.dir/Common/Translators.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controllers.dir/Common/Translators.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.cpp > CMakeFiles/Controllers.dir/Common/Translators.cpp.i
 
-CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.cpp -o CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.s
+CMakeFiles/Controllers.dir/Common/Translators.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controllers.dir/Common/Translators.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.cpp -o CMakeFiles/Controllers.dir/Common/Translators.cpp.s
 
 # Object files for target Controllers
 Controllers_OBJECTS = \
@@ -184,7 +184,7 @@ Controllers_OBJECTS = \
 "CMakeFiles/Controllers.dir/BaseClasses/SimpleLogger.cpp.o" \
 "CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o" \
 "CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o" \
-"CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o"
+"CMakeFiles/Controllers.dir/Common/Translators.cpp.o"
 
 # External object files for target Controllers
 Controllers_EXTERNAL_OBJECTS =
@@ -197,7 +197,7 @@ Controllers: CMakeFiles/Controllers.dir/FileSystemController/FileSystem/FileSyst
 Controllers: CMakeFiles/Controllers.dir/BaseClasses/SimpleLogger.cpp.o
 Controllers: CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o
 Controllers: CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o
-Controllers: CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o
+Controllers: CMakeFiles/Controllers.dir/Common/Translators.cpp.o
 Controllers: CMakeFiles/Controllers.dir/build.make
 Controllers: CMakeFiles/Controllers.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Controllers"

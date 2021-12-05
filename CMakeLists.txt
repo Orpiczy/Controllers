@@ -12,4 +12,4 @@ add_executable(Controllers main.cpp
         FileSystemController/FileSystem/FileSystemController.cpp  FileSystemController/FileSystem/FileSystemController.hpp
 
         BaseClasses/SimpleLogger.hpp BaseClasses/SimpleLogger.cpp
-		Common/CustomEnumTypes.hpp Common/ControllersFlags.hpp DeviceController/DeviceController.cpp DeviceController/DeviceController.hpp DeviceController/CameraManager/CameraManager.cpp DeviceController/CameraManager/CameraManager.hpp BaseClasses/DeviceManager.hpp BaseClasses/ScannedData.hpp Common/CustomEnumTypes.cpp)
+		Common/CustomEnumTypes.hpp Common/ControllersFlags.hpp DeviceController/DeviceController.cpp DeviceController/DeviceController.hpp DeviceController/CameraManager/CameraManager.cpp DeviceController/CameraManager/CameraManager.hpp BaseClasses/DeviceManager.hpp BaseClasses/ScannedData.hpp Common/Translators.cpp Common/Translators.hpp)

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Controllers.dir/BaseClasses/SimpleLogger.cpp.o"
-  "CMakeFiles/Controllers.dir/Common/CustomEnumTypes.cpp.o"
+  "CMakeFiles/Controllers.dir/Common/Translators.cpp.o"
   "CMakeFiles/Controllers.dir/DeviceController/CameraManager/CameraManager.cpp.o"
   "CMakeFiles/Controllers.dir/DeviceController/DeviceController.cpp.o"
   "CMakeFiles/Controllers.dir/DeviceController/ProfilometerManager/MsgManager.cpp.o"
