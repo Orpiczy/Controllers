@@ -4,5 +4,6 @@
 
 
 |             id|     Healthy|Unrecognized|   Unhealthy|
+|       05122021|           4|           2|           0|
 |       04122021|           0|           5|           0|
 |       03122021|           2|           1|           3|

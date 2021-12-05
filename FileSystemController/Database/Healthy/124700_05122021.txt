@@ -1,0 +1,7 @@
+
+
+///// WARNING THIS IS READONLY MEASURE DATA /////
+
+
+               |      Result|        Out1|        Out2|        Out3|        OutA|      XCoord|      YCoord|
+124700_05122021|           1|           1|           2|           3|           4|

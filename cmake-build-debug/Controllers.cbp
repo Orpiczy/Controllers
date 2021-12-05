@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Controllers"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Controllers">
+				<Option output="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Controllers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 Controllers"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Controllers/fast">
+				<Option output="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Controllers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 Controllers/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/DeviceManager.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/ScannedData.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/BaseClasses/SimpleLogger.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/ControllersFlags.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/CommandProvider.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ErrorProvider.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/MsgManager.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/MsgManager.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ProfilometerManager.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ProfilometerManager.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/SerialPortManager.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/SerialPortManager.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.hpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/main.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
