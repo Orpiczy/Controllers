@@ -27,7 +27,7 @@ public:
 ////BASIC CMD
     int addInfoToScannedData(ScannedData& data) override {
         if (not IS_CAMERA_AVAILABLE) {
-            data.cameraImage = {};
+            data.cameraImage = testImage;
             data.resultCamera = CAMERA_RESULT;
             data.finalResult = data.resultCamera == data.finalResult ? data.finalResult : ScanResult::Unrecognized;
             return 0;
@@ -44,10 +44,10 @@ public:
 
     int addInfoToScannedDataAndSaveItToDataBase(ScannedData& data) override {
         if (not IS_CAMERA_AVAILABLE) {
-            data.cameraImage = {};
+            data.cameraImage = testImage;
             data.resultCamera = CAMERA_RESULT;
             data.finalResult = data.resultCamera == data.finalResult ? data.finalResult : ScanResult::Unrecognized;
-            FileSystemController::GetInstance()->addCameraImageToCategorizedDataBase(CAMERA_RESULT, {});
+            FileSystemController::GetInstance()->addCameraImageToCategorizedDataBase(data.resultCamera, data.cameraImage );
             return 0;
         }
         /*
@@ -76,6 +76,7 @@ public:
 protected:
     static CameraManager* cam_;
 private:
+    const static std::vector<std::vector<std::tuple<uint8_t,uint8_t,uint8_t>>> testImage;
 };
 
 

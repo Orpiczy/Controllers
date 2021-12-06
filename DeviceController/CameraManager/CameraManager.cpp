@@ -15,6 +15,6 @@ CameraManager* CameraManager::GetInstance() {
 
 ////VARIABLES
 CameraManager* CameraManager::cam_ = nullptr;
-
+const std::vector<std::vector<std::tuple<uint8_t,uint8_t,uint8_t>>> CameraManager::testImage = {{{12,24,5},{3,4,6}},{{7,8,9},{12,15,18}}};
 
 

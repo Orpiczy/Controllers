@@ -37,11 +37,13 @@ FileSystemController::FileSystemController(bool isLogInfoEnable, bool isLogError
 
 ////BASIC CMD
 
-int FileSystemController::addProfilometerScanDataToCategorizedDataBase(ScanResult result, uint16_t out1, uint16_t out2, uint16_t out3,
-                                                                       uint16_t outA, const std::vector<std::pair<uint16_t, uint16_t>>& profileData){
+int FileSystemController::addProfilometerScanDataToCategorizedDataBase(ScanResult result, uint16_t out1, uint16_t out2,
+                                                                       uint16_t out3,
+                                                                       uint16_t outA,
+                                                                       const std::vector<std::pair<uint16_t, uint16_t>>& profileData) {
     auto scanId = getFullTimeStamp();
-    auto directoryPath = savePath  + "/" + getResultName(result) + "/" + scanId + "/";
-    auto fullPath =  directoryPath + scanId + ".txt";
+    auto directoryPath = savePath + "/" + getResultName(result) + "/" + scanId + "/";
+    auto fullPath = directoryPath + scanId + "_profilometer" + ".txt";
 
     if (std::filesystem::exists(fullPath)) {
         LG_INF("FAILURE - FILE EXISTS - cmd addScanToMainDataBase");
@@ -64,7 +66,7 @@ int FileSystemController::addProfilometerScanDataToCategorizedDataBase(ScanResul
 
     file << warningScanData;
     file << scanDataHeadline << std::endl;
-    file << std::setw(initialPadding) << scanId << delimiter;
+    file << delimiter << std::setw(initialPadding - 1) << scanId << delimiter;
     file << std::setw(padding) << std::to_string(result) << delimiter;
     file << std::setw(padding) << std::to_string(out1) << delimiter;
     file << std::setw(padding) << std::to_string(out2) << delimiter;
@@ -81,6 +83,39 @@ int FileSystemController::addProfilometerScanDataToCategorizedDataBase(ScanResul
             file << std::setw(initialPadding + padding * 5 + 6 * 1) << delimiter;
         }
     }
+    file.close();
+}
+
+int FileSystemController::addCameraImageToCategorizedDataBase(ScanResult result,
+                                                              std::vector<std::vector<std::tuple<uint8_t, uint8_t, uint8_t>>>) {
+    auto scanId = getFullTimeStamp();
+    auto directoryPath = savePath + "/" + getResultName(result) + "/" + scanId + "/";
+    auto fullPath = directoryPath + scanId + "_camera" + ".jpg";
+
+    if (std::filesystem::exists(fullPath)) {
+        LG_INF("FAILURE - FILE EXISTS - cmd addScanToMainDataBase");
+        return -1;
+    }
+
+    std::filesystem::create_directories(directoryPath);
+
+    std::ofstream file;
+    file.open(fullPath);
+    if (file.is_open()) {
+        LG_INF("SUCCESS - FILE WAS OPENED CORRECTLY - cmd addScanToMainDataBase");
+    } else {
+        LG_ERR("FAILURE - FILE WAS NOT OPENED CORRECTLY " + std::string(strerror(errno)) + " - " + fullPath +
+               " - " +
+               "cmd addScanToMainDataBase");
+        return -1;
+    }
+    /*
+     *
+     *
+     *  IMPLEMENTATION
+     *
+     *
+     */
     file.close();
 }
 
@@ -187,26 +222,27 @@ std::vector<std::tuple<std::string, int, int, int>> FileSystemController::getDai
     int nrLine = 0;
     int nrDataLine = 0;
     nrDataLine += std::count(warningStatisticData.cbegin(), warningStatisticData.cend(), '\n');
-    nrDataLine += std::count(statisticHeadline.cbegin(), statisticHeadline.cend(),  '\n');
+    nrDataLine += std::count(statisticHeadline.cbegin(), statisticHeadline.cend(), '\n');
     nrDataLine += 1;
     std::string line;
-    std::vector<std::tuple<std::string,int,int,int>> dailyData;
+    std::vector<std::tuple<std::string, int, int, int>> dailyData;
     int nrFinalLineToRead = nrDataLine + n - 1;
     while (getline(rFile, line)) {
         nrLine++;
         if (nrFinalLineToRead >= nrLine && nrLine >= nrDataLine) {
-            std::string date = getNStringBetween(0,delimiter,delimiter,line);
-            int healthy = stoi(getNStringBetween(1,delimiter,delimiter,line));
-            int unrecognized = stoi(getNStringBetween(2,delimiter,delimiter,line));
-            int unhealthy = stoi(getNStringBetween(3,delimiter,delimiter,line));
-            dailyData.emplace_back(date,healthy, unrecognized, unhealthy);
-        } else if ( nrLine > nrFinalLineToRead){
+            std::string date = getNStringBetween(0, delimiter, delimiter, line);
+            int healthy = stoi(getNStringBetween(1, delimiter, delimiter, line));
+            int unrecognized = stoi(getNStringBetween(2, delimiter, delimiter, line));
+            int unhealthy = stoi(getNStringBetween(3, delimiter, delimiter, line));
+            dailyData.emplace_back(date, healthy, unrecognized, unhealthy);
+        } else if (nrLine > nrFinalLineToRead) {
             break;
         }
     }
 
-    if(nrLine < nrFinalLineToRead){
-        LG_INF("FAILURE - " + std::to_string(nrFinalLineToRead - nrLine) + " LINE/LINES WHERE NOT READ - ENTRIES DOES NOT EXISTS - cmd getDailyStatisticFromLastNDays");
+    if (nrLine < nrFinalLineToRead) {
+        LG_INF("FAILURE - " + std::to_string(nrFinalLineToRead - nrLine) +
+               " LINE/LINES WHERE NOT READ - ENTRIES DOES NOT EXISTS - cmd getDailyStatisticFromLastNDays");
     }
 
     return dailyData;
@@ -384,7 +420,8 @@ std::string FileSystemController::getNStringBetween(int n, char a, char b, std::
     if (it_begin != text.end()) {
         std::string result = std::string{it_begin + 1, it_end};
         //cleaning
-        result.erase(std::remove_if(result.begin(), result.end(),[](unsigned char x) { return std::isspace(x); }), result.end());
+        result.erase(std::remove_if(result.begin(), result.end(), [](unsigned char x) { return std::isspace(x); }),
+                     result.end());
         return result;
 
     } else {
@@ -396,3 +433,5 @@ std::string FileSystemController::getNStringBetween(int n, char a, char b, std::
 ////VARIABLES
 
 FileSystemController* FileSystemController::fsc_ = nullptr;
+
+

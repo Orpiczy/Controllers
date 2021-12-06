@@ -5,16 +5,22 @@
 #include <sstream>
 #include "FileSystemController/FileSystem/FileSystemController.hpp"
 #include "DeviceController/ProfilometerManager/ProfilometerManager.hpp"
+#include "DeviceController/CameraManager/CameraManager.hpp"
+#include "DeviceController/DeviceController.hpp"
 
 int main() {
 
 //    auto fs = FileSystemController::GetInstance();
-//    auto pfm = ProfilometerManager::GetInstance();
+
+
+    auto dvc = DeviceController::GetInstance();
+    ScannedData scan = dvc->getAndSaveAllData();
+    auto bb = 3;
 //    fs->addScanToMainDataBase(ScanResult::Healthy,pfm->getOut1(),pfm->getOut2(),pfm->getOut3(),pfm->getOutA(),pfm->getProfile());
 //    auto data = fs->getDailyStatisticsFromLastNDays(3);
 
 
-}
+
 
 //    std::string =
 //    std::string healthyStr =  fs->getNStringBetween(0, delimiter, delimiter, line);
@@ -40,4 +46,4 @@ int main() {
 //auto str = fs -> getNStringBetween(0,'|','|',text);
 //std::cout << str;
 //}
-auto a = 2;
+}

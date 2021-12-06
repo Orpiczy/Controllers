@@ -38,7 +38,8 @@ public:
             data.outA = getOutA();
             data.profileData = getProfile();
             data.resultProfilometer = PROFILOMETER_RESULT;
-            data.finalResult = data.resultProfilometer == data.finalResult ? data.finalResult : ScanResult::Unrecognized;
+            data.finalResult =
+                    data.resultProfilometer == data.finalResult ? data.finalResult : ScanResult::Unrecognized;
             return 0;
         }
         /*
@@ -52,15 +53,19 @@ public:
     }
 
     int addInfoToScannedDataAndSaveItToDataBase(ScannedData& data) override {
-        if (not IS_CAMERA_AVAILABLE) {
+        if (not IS_PROFILOMETER_AVAILABLE) {
             data.out1 = getOut1();
             data.out2 = getOut2();
             data.out3 = getOut3();
             data.outA = getOutA();
             data.profileData = getProfile();
             data.resultProfilometer = PROFILOMETER_RESULT;
-            data.finalResult = data.resultProfilometer == data.finalResult ? data.finalResult : ScanResult::Unrecognized;
-            FileSystemController::GetInstance()->addCameraImageToCategorizedDataBase(CAMERA_RESULT, {});
+            data.finalResult =
+                    data.resultProfilometer == data.finalResult ? data.finalResult : ScanResult::Unrecognized;
+            FileSystemController::GetInstance()->addProfilometerScanDataToCategorizedDataBase(data.resultProfilometer,
+                                                                                              data.out1, data.out2,
+                                                                                              data.out3, data.outA,
+                                                                                              data.profileData);
             return 0;
         }
         /*

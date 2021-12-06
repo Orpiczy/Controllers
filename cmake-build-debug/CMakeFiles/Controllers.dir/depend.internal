@@ -71,6 +71,8 @@ CMakeFiles/Controllers.dir/main.cpp.o
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/ControllersFlags.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
+ /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.hpp
+ /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/CommandProvider.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ErrorProvider.hpp
  /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/MsgManager.hpp

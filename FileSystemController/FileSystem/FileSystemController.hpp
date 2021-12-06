@@ -33,16 +33,7 @@ public:
                                                      uint16_t out3, uint16_t outA,
                                                      const std::vector<std::pair<uint16_t, uint16_t>>& profileData);
 
-    int addCameraImageToCategorizedDataBase(ScanResult result, std::vector<std::vector<std::tuple<uint8_t, uint8_t, uint8_t>>>) {
-        /*
-         *
-         *
-         *  IMPLEMENTATION
-         *
-         *
-         */
-        return 0;
-    };
+    int addCameraImageToCategorizedDataBase(ScanResult result, std::vector<std::vector<std::tuple<uint8_t, uint8_t, uint8_t>>>);;
 
     int addScanToDailyStatistic(ScanResult result);
 
@@ -93,7 +84,7 @@ private:
     const static char initCharForMainStamp = '_';
     const static char endCharForMainStamp = '.';
     const int padding = 12;
-    const int initialPadding = 15;
+    const int initialPadding = 16;
 
     std::string getDailyTimeStamp();
 };

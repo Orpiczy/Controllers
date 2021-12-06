@@ -25,6 +25,14 @@ public:
     ScannedData getAllData(){
         ScannedData data;
         for(auto device: deviceList){
+            device->addInfoToScannedData(data);
+        }
+        return data;
+    }
+
+    ScannedData getAndSaveAllData(){
+        ScannedData data;
+        for(auto device: deviceList){
             device->addInfoToScannedDataAndSaveItToDataBase(data);
         }
         FileSystemController::GetInstance() -> addScanToDailyStatistic(data.finalResult);

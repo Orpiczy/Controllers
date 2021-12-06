@@ -70,6 +70,8 @@ CMakeFiles/Controllers.dir/main.cpp.o: ../BaseClasses/SimpleLogger.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../Common/ControllersFlags.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../Common/CustomEnumTypes.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../Common/Translators.hpp
+CMakeFiles/Controllers.dir/main.cpp.o: ../DeviceController/CameraManager/CameraManager.hpp
+CMakeFiles/Controllers.dir/main.cpp.o: ../DeviceController/DeviceController.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../DeviceController/ProfilometerManager/CommandProvider.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../DeviceController/ProfilometerManager/ErrorProvider.hpp
 CMakeFiles/Controllers.dir/main.cpp.o: ../DeviceController/ProfilometerManager/MsgManager.hpp

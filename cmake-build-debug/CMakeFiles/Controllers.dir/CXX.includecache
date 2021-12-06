@@ -32,19 +32,11 @@ CustomEnumTypes.hpp
 
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
 
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.cpp
-Translators.hpp
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
-
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/Translators.hpp
 string
 -
 CustomEnumTypes.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/CustomEnumTypes.hpp
-
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.cpp
-CameraManager.hpp
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.hpp
 
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.hpp
 ../../BaseClasses/SimpleLogger.hpp
@@ -59,10 +51,6 @@ CameraManager.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.hpp
 vector
 -
-
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.cpp
-DeviceController.hpp
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.hpp
 
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.hpp
 ../BaseClasses/SimpleLogger.hpp
@@ -99,10 +87,6 @@ ErrorProvider.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ErrorProvider.hpp
 optional
 -
-
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ProfilometerManager.cpp
-ProfilometerManager.hpp
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ProfilometerManager.hpp
 
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ProfilometerManager.hpp
 iostream
@@ -144,10 +128,6 @@ string.h
 ../../Common/ControllersFlags.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/Common/ControllersFlags.hpp
 
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.cpp
-FileSystemController.hpp
-/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.hpp
-
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.hpp
 iostream
 -
@@ -181,4 +161,8 @@ FileSystemController/FileSystem/FileSystemController.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/FileSystemController/FileSystem/FileSystemController.hpp
 DeviceController/ProfilometerManager/ProfilometerManager.hpp
 /mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/ProfilometerManager/ProfilometerManager.hpp
+DeviceController/CameraManager/CameraManager.hpp
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/CameraManager/CameraManager.hpp
+DeviceController/DeviceController.hpp
+/mnt/e/Dokumenty/AiR_rok_4/S7/EngineeringThesis/Controllers/DeviceController/DeviceController.hpp
 
